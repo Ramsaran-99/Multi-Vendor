@@ -1,0 +1,29 @@
+.single-product{
+    margin-top: 50px !important;
+}
+.product-attribute h3{
+    font-weight: 700 !important;
+    font-size: 30px !important;
+}
+.price .price-amount{
+    padding-left: 5px !important;
+}
+
+.select select{
+    color: #000 !important;
+}
+.select{
+    background-color: #e73918 !important;
+    width: 20% !important;
+    padding: 1px 115px !important;
+    border-radius: 60px !important;
+    font-weight: 700 !important;
+
+}
+.select i{
+    padding: 10px !important;
+
+}
+.select .list li{
+    padding: 0 95px !important;
+}
