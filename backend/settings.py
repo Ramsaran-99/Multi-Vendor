@@ -28,6 +28,7 @@ INSTALLED_APPS = [
     'customer',
     'vendor',
 
+    'django_jasmine',
     'anymail',
     'django_ckeditor_5',
     'import_export',
