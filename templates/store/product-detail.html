@@ -62,7 +62,7 @@
                             <div class="qty-input">
                                 <!-- <input type="text" name="qty12554" value="{{stock}}" data-max_value="{{stock}}" data-min_value="1" data-step="1"> -->
                                 <select class="form-select select">
-                                    {% for qty in stock%}
+                                    {% for qty in stock %}
                                     <option value="{{qty}}">{{qty}}</option>
                                     {% endfor %}
                                   </select>
@@ -71,7 +71,7 @@
                             </div>
                         </div>
                         <div class="buttons">
-                            <a href="#" class="btn add-to-cart-btn">add to cart</a>
+                            <a href="#" class="btn add-to-cart-btn add_to_cart" data-id="{{products.id}}">add to cart</a>
                             <p class="pull-row">
                                 <a href="#" class="btn wishlist-btn">wishlist</a>
                                 <a href="#" class="btn compare-btn">compare</a>
@@ -370,14 +370,13 @@
                 </div>
 
                 <!-- related products -->
-                <div class="product-related-box single-layout">
+                <!-- <div class="product-related-box single-layout">
                     <div class="biolife-title-box lg-margin-bottom-26px-im">
                         <span class="biolife-icon icon-organic"></span>
                         <span class="subtitle">All the best item for You</span>
                         <h3 class="main-title">Related Products</h3>
                     </div>
                     <ul class="products-list biolife-carousel nav-center-02 nav-none-on-mobile" data-slick='{"rows":1,"arrows":true,"dots":false,"infinite":false,"speed":400,"slidesMargin":0,"slidesToShow":5, "responsive":[{"breakpoint":1200, "settings":{ "slidesToShow": 4}},{"breakpoint":992, "settings":{ "slidesToShow": 3, "slidesMargin":20 }},{"breakpoint":768, "settings":{ "slidesToShow": 2, "slidesMargin":10}}]}'>
-
                         <li class="product-item">
                             <div class="contain-product layout-default">
                                 <div class="product-thumb">
@@ -555,7 +554,7 @@
                         </li>
 
                     </ul>
-                </div>
+                </div> -->
                 
             </div>
         </div>

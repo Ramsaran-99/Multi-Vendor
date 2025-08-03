@@ -17,5 +17,8 @@ $(document).ready(function () {
 });
 
 $(document).on("click",".add_to_cart", function(){
-    
+    const button_e1 = $(this)
+    const id  = button_e1.attr("data_id")
+    const qty = $(".quantity").val()
+    const size = $("input[name='size']:checked").val()
 })
